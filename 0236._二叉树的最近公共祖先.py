@@ -6,6 +6,8 @@
 #         self.right = None
 
 # 问题转化为 两个单向链表的第一个公共结点
+# DFS 深度优先搜索
+# 时间复杂度: O(N)- 空间复杂度: O(N)
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
